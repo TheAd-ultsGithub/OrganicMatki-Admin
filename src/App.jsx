@@ -24,7 +24,7 @@ const auth = getAuth(app);
 
 function App() {
   const [user, setUser] = useState(null);
-  const SiteName = "Organic Matki";
+  const SiteName = "Indie Stori";
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
